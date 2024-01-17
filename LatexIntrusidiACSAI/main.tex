@@ -1,0 +1,139 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+
+% provides an easy interface to page dimensions
+\usepackage[letterpaper, top = 2.5cm, bottom = 2cm, left = 3.5cm , right = 3.5cm]{geometry}
+\usepackage[usenames, dvipsnames]{xcolor}
+
+% graphics
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{animate}
+
+
+% math
+\usepackage{amssymb, amsmath}
+\usepackage{bbm}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{pifont}
+\usepackage{physics}
+\usepackage{graphicx}
+
+% appendices
+\usepackage[toc,page]{appendix}
+
+% theorems
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{mdframed}
+
+% algorithms
+\usepackage[ruled,vlined]{algorithm2e}
+
+% listings style for pseudo-code and similiar
+\usepackage{listings}
+\usepackage{etex}
+\usepackage{xmpmulti}
+\usepackage{soul}
+\usepackage{cancel}
+\usepackage{overpic}
+\usepackage{color}
+\usepackage{bm}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{tcolorbox}
+\usepackage{contour}
+\usepackage{tikz}
+\usepackage{xypic}
+\usepackage{extarrows}
+\usepackage{amsfonts}
+\usepackage{algorithmic}
+\usepackage{dirtytalk}
+\usepackage{movie15}
+
+% links
+\usepackage[bookmarks, colorlinks, breaklinks, unicode]{hyperref}
+\usepackage{cleveref}
+
+\usepackage{lipsum}
+\usepackage{authblk}
+\usepackage{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Links setup
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{mycitecolor}{YellowOrange}
+\colorlet{myurlcolor}{violet}
+
+
+\hypersetup{
+  linkcolor  = myurlcolor!\myshade!black,
+  citecolor  = myurlcolor!\myshade!black,
+  urlcolor   = myurlcolor!\myshade!black,
+  colorlinks = true,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{red}{rgb}{0.75,0,0}
+\definecolor{blue}{rgb}{0,0,0.75}
+
+\definecolor{darkred}{rgb}{0.75,0,0}
+\definecolor{darkblue}{rgb}{0,0,0.75}
+\definecolor{darkgreen}{rgb}{0,0.75,0}
+
+\definecolor{brown}{rgb}{0.647,0.165,0.165}
+\definecolor{pink}{rgb}{1,0.75,0.796}
+\definecolor{lightblue}{rgb}{0.53,0.53,1}
+
+\definecolor{cyan}{rgb}{0.272,0.725,0.725}
+\definecolor{orange}{rgb}{0.698,0.431,0}
+\definecolor{noh}{rgb}{1,0.549,0}
+
+\newcommand{\xxx}{{\color{darkgreen}\bb{x}}}
+\newcommand{\zzz}{{\color{darkred}\bb{z}}}
+\newcommand{\pphi}{{\bm{\phi}}}
+\newcommand{\ttheta}{{\bm{\theta}}}
+
+\lstset{ 
+    basicstyle=\linespread{1.1}\ttfamily\footnotesize,
+    frame=tlbr,
+    framesep=0.2cm,
+    framerule=0pt,
+	captionpos=b,
+	language=Delphi,
+	mathescape=true,
+    backgroundcolor=\color{white},
+    commentstyle=\color{commgray}
+}
+
+% no indentantion for new paragraph
+\setlength{\parindent}{0pt}
+
+
+
+
+\title{\textbf{Progetto Interazione Uomo Macchina}}
+%\title{\textbf{Linear Algebra and Matrix Calculus }}
+\author{ \textbf{Team:} \textit{Gli Intrusi di ACSAI} \\ Di Gennaro Veronica \hspace{1cm}  Gai Annafabia \hspace{1cm}  Gennarelli Christian \hspace{1cm} \\   Guarnizo Daniel \hspace{1cm}     Ramil Leonard Vincent \hspace{1cm}}
+
+
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\include{00_Introduzione/00_intro}
+\include{01_NeedFinding/01_NeedFinding}
+\include{02_StoryBoarding/02_StoryBord}
+\include{03_ProtoTyping/03_ProtoTyping}
+
+\end{document}
