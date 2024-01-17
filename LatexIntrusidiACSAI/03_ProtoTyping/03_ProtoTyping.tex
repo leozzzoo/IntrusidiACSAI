@@ -1,1 +1,50 @@
-\chapter{Prototyping}
+\chapter{PaperPrototyping}
+
+\section{Prototipo cartaceo 1}
+Nella progettazione del primo prototipo cartaceo, abbiamo prestato particolare attenzione al fatto che tutti e tre i task selezionati
+siano "task di ricerca", ognuno con diverse macro-aree oggetto delle ricerche. Pertanto, abbiamo cercato di strutturare l'applicazione
+in tre sezioni accessibili dalla schermata iniziale tramite tre tasti denominati "Corsi di Laurea", "Insegnamenti" e "Professori", ciascuno
+dei quali reindirizza alla relativa schermata contenente esclusivamente la barra di ricerca.
+Il nostro principale obiettivo nella progettazione è quello di condensare informazioni tematiche in un'unica schermata. Dopo le schermate
+di ricerca si accede, infatti, alla schermata specifica del soggetto ricercato: un professore, un insegnamento (con relativo professore e
+anno accademico), o un corso di laurea specifico, seguendo la suddivisione precedentemente presentata. Ad esempio, per un dato insegnamento,
+questa schermata mostrerà una serie di tasti quali "Appunti Lezioni", "Modalità d'esame", "Opinioni studenti" e altri, permettendo all'utente
+di avere le informazioni chiave, riguardo il soggetto ricercato, tutte a portata di mano e facili da distinguere.
+
+
+\subsection{Valutazione con l'esperto}
+Durante la valutazione condotta dal membro del nostro gruppo scelto per essere l'esperto è emersa una violazione critica di un'euristica di
+usabilità: la mancanza di un metodo chiaramente contrassegnato per tornare indietro alla schermata precedente.
+Inoltre, attraverso un cognitive walkthrough, l'esperto ha suggerito l'inserimento delle "ricerche recenti" nelle schermate di ricerca per ottimizzare le operazioni.
+Nonostante questo abbiamo deciso di procedere con la valutazione con gli utenti senza modifiche al prototipo.
+
+
+\subsection{Valutazione con gli utenti}
+Per la valutazione sul campo con gli utenti abbiamo optato per la tecnica di osservazione think aloud per cui, dopo aver presentato lo scenario
+e il task corrspondente al prototipo, l'utente è stato invitato a ragionare ad alta voce nello svolgere il task. È stato evidenziato come la mancanza
+di un'indicazione chiara sulla posizione dell'utente nel flusso dell'applicazione possa generare confusione. È stata, poi, ulteriormente confermata la necessità di
+un tasto per tornare indietro.
+Inoltre, abbiamo notato un'esitazione da parte di alcuni utenti nel selezionare i tasti nelle schermate specifiche, per esempio quella dell'insegnamento descritta
+prima. Questa incertezza potrebbe essere dovuta al cambiamento completo della schermata dopo la selezione di un tasto, portando gli utenti a riflettere di più prima della scelta.
+
+
+\section{Prototipo cartaceo 2}
+Per affrontare le criticità riscontrate nel prototipo precedente abbiamo introdotto un tasto per tornare indietro, insieme a degli indicatori testuali per chiarire
+la posizione dell'utente all'interno dell'applicazione.
+Per ridurre l'incertezza degli utenti riscontrata precedentemente, abbiamo introdotto, dove il cambio di schermata risultava superfluo, tasti a tendina. Questi,
+infatti, risultano meno invasivi, facilitando la selezione delle opzioni senza implicare un cambiamento immediato della schermata. Ad esempio, selezionando su
+"Appunti Lezioni" non viene più aperta una nuova schermata ma appare una tendina, sotto il tasto selezionato, con una lista di argomenti tra cui gli utenti possono
+scegliere quale cliccare per essere poi portati alla schermata in cui sono presenti gli appunti desiderati.
+Seguendo il suggerimento dell'esperto, sono anche state aggiunte le ricerche recenti in tutte le schermate di ricerca.
+
+
+\subsection{Valutazione con l'esperto}
+Durante la valutazione, basata sulle euristiche, fatta dall’esperto non sono state trovate particolari violazioni delle linee guida. L’esperto crede che l’utente non avrà difficoltà nello svolgere i task.
+Per questo abbiamo deciso di passare direttamente alla valutazione con gli utenti.
+
+
+\subsection{Valutazione con gli utenti}
+Come metodo di valutazione del secondo paper prototype. abbiamo optato per la stessa tecnica utilizzata precedentemente, ovvero il think aloud. Generalmente, non
+sono state trovate particolari criticità da parte degli utenti durante l’esecuzione dei task. L’unica funzionalità risultata mancante da parte dell’utente è quella
+dell’ordinamento delle opinioni e degli appunti in base a criteri specifici, come la valutazione assegnata da altri studenti o la data di pubblicazione. Per questo
+abbiamo deciso di inserire questa funzionalità direttamente nel digital prototype realizzato successivamente, per poi procedere alla valutazione dello stesso.
