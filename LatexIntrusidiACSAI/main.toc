@@ -12,9 +12,9 @@
 \contentsline {subsubsection}{Domande per Rompere il Ghiaccio}{9}{section*.7}%
 \contentsline {subsubsection}{Domande Corsi a Scelta (Percorso Formativo)}{9}{section*.8}%
 \contentsline {subsubsection}{Domande sulle Opinioni riguardo i Professori}{10}{section*.9}%
-\contentsline {subsubsection}{Domande sul Tirocinio}{11}{section*.10}%
+\contentsline {subsubsection}{Domande sul Tirocinio}{10}{section*.10}%
 \contentsline {subsection}{\numberline {1.2.2}Risultati Questionario}{11}{subsection.1.2.2}%
-\contentsline {subsubsection}{Domande per Rompere il Ghiaccio}{12}{section*.11}%
+\contentsline {subsubsection}{Domande per Rompere il Ghiaccio}{11}{section*.11}%
 \contentsline {subsubsection}{Domande Corsi a Scelta (Percorso Formativo)}{13}{section*.12}%
 \contentsline {subsubsection}{Domande sulle Opinioni riguardo i Professori}{16}{section*.13}%
 \contentsline {subsubsection}{Domande sul Tirocinio}{19}{section*.14}%
