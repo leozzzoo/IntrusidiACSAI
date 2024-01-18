@@ -1,6 +1,8 @@
-\chapter{PaperPrototyping}
+\chapter{Prototyping}
 
-\section{Prototipo cartaceo 1}
+\section{Paper Prototyping}
+
+\subsection{Prototipo cartaceo 1}
 Nella progettazione del primo prototipo cartaceo, abbiamo prestato particolare attenzione al fatto che tutti e tre i task selezionati
 siano "task di ricerca", ognuno con diverse macro-aree oggetto delle ricerche. Pertanto, abbiamo cercato di strutturare l'applicazione
 in tre sezioni accessibili dalla schermata iniziale tramite tre tasti denominati "Corsi di Laurea", "Insegnamenti" e "Professori", ciascuno
@@ -12,15 +14,15 @@ questa schermata mostrerà una serie di tasti quali "Appunti Lezioni", "Modalit�
 di avere le informazioni chiave, riguardo il soggetto ricercato, tutte a portata di mano e facili da distinguere.
 
 
-\subsection{Valutazione con l'esperto}
-Durante la valutazione condotta dal membro del nostro gruppo scelto per essere l'esperto è emersa una violazione critica di un'euristica di
-usabilità: la mancanza di un metodo chiaramente contrassegnato per tornare indietro alla schermata precedente.
-Inoltre, attraverso un cognitive walkthrough, l'esperto ha suggerito l'inserimento delle "ricerche recenti" nelle schermate di ricerca per ottimizzare le operazioni.
+\subsubsection{Valutazione con l'esperto}
+Durante la valutazione condotta dal membro del nostro gruppo scelto per essere l'esperto è emersa una violazione critica di un'\textit{euristica di
+usabilità}: la mancanza di un metodo chiaramente contrassegnato per tornare indietro alla schermata precedente.
+Inoltre, attraverso un \textit{cognitive walkthrough}, l'esperto ha suggerito l'inserimento delle "ricerche recenti" nelle schermate di ricerca per ottimizzare le operazioni.
 Nonostante questo abbiamo deciso di procedere con la valutazione con gli utenti senza modifiche al prototipo.
 
 
-\subsection{Valutazione con gli utenti}
-Per la valutazione sul campo con gli utenti abbiamo optato per la tecnica di osservazione think aloud per cui, dopo aver presentato lo scenario
+\subsubsection{Valutazione con gli utenti}
+Per la valutazione sul campo con gli utenti abbiamo optato per la tecnica di osservazione \textit{think aloud} per cui, dopo aver presentato lo scenario
 e il task corrspondente al prototipo, l'utente è stato invitato a ragionare ad alta voce nello svolgere il task. È stato evidenziato come la mancanza
 di un'indicazione chiara sulla posizione dell'utente nel flusso dell'applicazione possa generare confusione. È stata, poi, ulteriormente confermata la necessità di
 un tasto per tornare indietro.
@@ -28,7 +30,7 @@ Inoltre, abbiamo notato un'esitazione da parte di alcuni utenti nel selezionare 
 prima. Questa incertezza potrebbe essere dovuta al cambiamento completo della schermata dopo la selezione di un tasto, portando gli utenti a riflettere di più prima della scelta.
 
 
-\section{Prototipo cartaceo 2}
+\subsection{Prototipo cartaceo 2}
 Per affrontare le criticità riscontrate nel prototipo precedente abbiamo introdotto un tasto per tornare indietro, insieme a degli indicatori testuali per chiarire
 la posizione dell'utente all'interno dell'applicazione.
 Per ridurre l'incertezza degli utenti riscontrata precedentemente, abbiamo introdotto, dove il cambio di schermata risultava superfluo, tasti a tendina. Questi,
@@ -38,13 +40,61 @@ scegliere quale cliccare per essere poi portati alla schermata in cui sono prese
 Seguendo il suggerimento dell'esperto, sono anche state aggiunte le ricerche recenti in tutte le schermate di ricerca.
 
 
-\subsection{Valutazione con l'esperto}
+\subsubsection{Valutazione con l'esperto}
 Durante la valutazione, basata sulle euristiche, fatta dall’esperto non sono state trovate particolari violazioni delle linee guida. L’esperto crede che l’utente non avrà difficoltà nello svolgere i task.
 Per questo abbiamo deciso di passare direttamente alla valutazione con gli utenti.
 
 
-\subsection{Valutazione con gli utenti}
-Come metodo di valutazione del secondo paper prototype. abbiamo optato per la stessa tecnica utilizzata precedentemente, ovvero il think aloud. Generalmente, non
+\subsubsection{Valutazione con gli utenti}
+Come metodo di valutazione del secondo paper prototype. abbiamo optato per la stessa tecnica utilizzata precedentemente, ovvero il \textit{think aloud}. Generalmente, non
 sono state trovate particolari criticità da parte degli utenti durante l’esecuzione dei task. L’unica funzionalità risultata mancante da parte dell’utente è quella
-dell’ordinamento delle opinioni e degli appunti in base a criteri specifici, come la valutazione assegnata da altri studenti o la data di pubblicazione. Per questo
+dell’ordinamento degli appunti in base a criteri specifici, come la valutazione o la data di pubblicazione. Per questo
 abbiamo deciso di inserire questa funzionalità direttamente nel digital prototype realizzato successivamente, per poi procedere alla valutazione dello stesso.
+
+\section{Digital Prototyping}
+
+\subsection{Prototipo digitale 1}
+Con la valutazione dell'ultimo prototipo cartaceo realizzato abbiamo constatato che gli utenti non avevano problemi a muoversi tra le varie schermate per completare i tre task. Per questo motivo, per il
+primo prototipo digitale abbiamo seguito la struttura dell’ultimo cartaceo, inserendo come unica cosa aggiuntiva il tasto “filtra” come avevamo già anticipato.
+
+\subsubsection{Valutazione con l'esperto}
+In questo prototipo, quando l’utente clicca su “Opinioni Studenti” nella pagina del professore, appare una nuova schermata in cui sono elencate tutte le recensioni con una valutazione in stelle.
+Tramite un \textit{cognitive walkthrough} dell’esperto, però, è emerso che molto probabilmente l’utente si aspetta di vedere in primo piano soprattutto una valutazione generale riguardo il professore.
+L’esperto, in una delle schermate durante lo svolgimento del task 1, ha anche manifestato scetticismo riguardo all’identificazione numerica delle lezioni in quanto non abbastanza indicativa.
+
+\subsubsection{Valutazione con gli utenti}
+Gli utenti hanno riscontrato difficoltà nel trovare la lezione specificata nello scenario del task 1 “Cosa sono i dati”, infatti nella lista che appare, gli appunti sono identificati da un numero
+ma evidentemente non è abbastanza.
+Alcuni utenti hanno notato un’incongruenza nel task 3, in cui all’utente viene chiesto di informarsi sui tirocini disponibili di un particolare professore, ma nella schermata in cui appare la relativa
+lista di argomenti non c’è nessuna indicazione che indichi la disponibilità degli stessi.
+
+\subsection{Prototipo digitale 2}
+Sono state apportate delle migliorie tecniche guidate principalmente da una maggiore familiarità ottenuta con Figma.
+Precedentemente, quando appariva la lista di lezioni nel primo task, l’utente poteva cliccare su qualsiasi lezione e comunque veniva aperta la schermata della lezione 1. Inoltre l’utente non poteva
+scorrere in questa lista. Abbiamo risolto queste limitazioni ottimizzando il menù a tendina su Figma.
+In risposta ai precedenti feedback, inoltre, abbiamo apportato le seguenti modifiche:
+Abbiamo reso le lezioni che appaiono nella lista più facilmente riconoscibili, indicandole oltre che per numero anche per nome/argomento.
+Abbiamo introdotto nella schermata “Opinioni Studenti” relative ad un professore una valutazione generale per il professore oltre alle singole recensioni e valutazioni degli studenti.
+(Questa valutazione generale è semplicemente una media (in stelle su 5) delle singole valutazioni)
+Nella lista dei tirocini di un professore, oltre alla descrizione degli stessi abbiamo aggiunto delle keywords “Non disponibile” e “Disponibile”.
+Ulteriori modifiche, come l’aggiunta della foto profilo utente nella schermata principale, sono principalmente stilistiche e facilmente visibili su Figma, per cui non andremo nel dettaglio qui.
+
+\subsubsection{Valutazione con l'esperto}
+Durante la valutazione è emersa la seguente problematica: nel corso del primo task, che richiede di cercare gli appunti di uno specifico insegnamento, se l’utente conosce il professore che tiene questo
+insegnamento, potrebbe scegliere di cliccare su "Professore", per poi navigare direttamente alla schermata del professore e cercare qui l’insegnamento specificato nel task.
+Ovviamente è un percorso valido e il nostro prototipo lo prevede. Nella schermata del professore è, infatti, previsto un menù a tendina denominato “Insegnamenti”. Tuttavia, finora, non è stato implementato.
+L’esperto ha consigliato di aggiungere questa implementazione per rendere il percorso degli utenti che seguono questa logica meno difficile e meno soggetto a confusione durante lo svolgimento del task.
+
+\subsubsection{Valutazione con gli utenti}
+\textbf{Note:} La problematica identificata dall’esperto era ovviamente già presente nei prototipi precedenti, ma ogni volta che nello svolgimento del task 1 qualche utente cliccava su ‘Professore’ invece che su ‘Insegnamenti’, lo fermavamo dicendo di tornare indietro.
+Infatti pensavamo che la sola presenza della freccia per tornare indietro fosse una soluzione sufficiente. Con la puntualizzazione fatta dall’esperto abbiamo proceduto con la valutazione con gli utenti ma prestando più attenzione agli utenti che commettono questo “errore” per capirne il ragionamento dietro.
+
+Come ci aspettavamo, ben due utenti su tre hanno provato a cercare nella sezione ‘Professori’ gli appunti di una lezione. Qui abbiamo avuto la conferma di ciò che è stato ipotizzato.
+
+\subsection{Prototipo digitale 3}
+In questa versione, abbiamo effettuato ulteriori miglioramenti stilistici e tecnici, inclusa l’aggiunta di una tastiera più dinamica.
+La novità principale è il nuovo percorso introdotto in risposta ai feedback ottenuti dall’esperto e dagli utenti.
+
+\subsubsection{Valutazioni finali (esperto e utenti)}
+La valutazione con l’esperto non ha rivelato criticità, permettendoci di procedere direttamente con le valutazioni con gli utenti, che sono riusciti a completare tutti i task senza difficoltà.
+La tastiera ha dimostrato di simulare più realisticamente un’applicazione reale, riducendo la confusione dell’utente rispetto ai prototipi precedenti dove il testo appariva senza digitazione alcuna.
