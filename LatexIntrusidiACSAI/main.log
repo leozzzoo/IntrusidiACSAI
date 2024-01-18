@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.21)  18 JAN 2024 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.21)  18 JAN 2024 23:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1185,14 +1185,14 @@ LaTeX Font Info:    ... okay on input line 130.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
 * v-part:(T,H,B)=(28.45274pt, 723.83812pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=528.93675pt
+* \textwidth=557.38951pt
 * \textheight=723.83812pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1262,17 +1262,17 @@ Package hyperref Info: Link coloring ON on input line 130.
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.134 \include{00_Introduzione/00_intro}
-                                         [1
+ [0
 
 ]
 \openout2 = `00_Introduzione/00_intro.aux'.
 
- (./00_Introduzione/00_intro.tex) [2
+ (./00_Introduzione/00_intro.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.0}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.135 \include{00_Introduzione/00_intro}
+                                         [0
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
@@ -1285,68 +1285,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-[3
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57     \end{enumerate}}
+                          [1
 
 
 
 
-] [4] [5] [6] [7] [8] [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 557--559
+] [2] [3] [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
 
-</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png, id=338, 721.69624pt x 428.60126pt>
+</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png, id=294, 721.69624pt x 428.60126pt>
 File: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png Graphic file (type png)
 <use /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png>
-Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png  used on input line 562.
-(pdftex.def)             Requested size: 370.2541pt x 219.8852pt.
-</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png, id=340, 686.565pt x 314.17375pt>
+Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png  used on input line 430.
+(pdftex.def)             Requested size: 334.4371pt x 198.61737pt.
+</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png, id=296, 686.565pt x 314.17375pt>
 File: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png Graphic file (type png)
 <use /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png>
-Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png  used on input line 567.
-(pdftex.def)             Requested size: 370.2541pt x 169.42598pt.
-</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png, id=341, 686.565pt x 411.5375pt>
+Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png  used on input line 435.
+(pdftex.def)             Requested size: 334.4371pt x 153.03563pt.
+[7 </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png> </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png>]
+</Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png, id=305, 686.565pt x 411.5375pt>
 File: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png Graphic file (type png)
 <use /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png>
-Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png  used on input line 573.
-(pdftex.def)             Requested size: 370.2541pt x 221.9318pt.
-[11 </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/2.png> </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/1.png>] [12 </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png>]) [13]
+Package pdftex.def Info: /Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png  used on input line 441.
+(pdftex.def)             Requested size: 334.4371pt x 200.46202pt.
+ [8 </Users/leonardvincentramil/Documents/GitHub/IntrusidiACSAI/LatexIntrusidiACSAI/01_NeedFinding/img/3.png>]) [9]
 \openout2 = `02_StoryBoarding/02_StoryBord.aux'.
 
  (./02_StoryBoarding/02_StoryBord.tex
 Chapter 2.
-</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg, id=403, 1416.29124pt x 752.8125pt>
+</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg, id=357, 1416.29124pt x 752.8125pt>
 File: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg Graphic file (type jpg)
 <use /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg>
 Package pdftex.def Info: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg  used on input line 19.
-(pdftex.def)             Requested size: 317.36526pt x 168.68628pt.
-</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg, id=404, 3169.8425pt x 2077.7625pt>
-File: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg Graphic file (type jpg)
-<use /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg>
-Package pdftex.def Info: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg  used on input line 35.
-(pdftex.def)             Requested size: 317.36526pt x 208.01035pt.
-[14
+(pdftex.def)             Requested size: 557.38951pt x 296.27216pt.
+[10
 
 
 
 
  </Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB1.jpg>]
-</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png, id=419, 548.0475pt x 534.99875pt>
+</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg, id=368, 3169.8425pt x 2077.7625pt>
+File: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg Graphic file (type jpg)
+<use /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg>
+Package pdftex.def Info: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg  used on input line 35.
+(pdftex.def)             Requested size: 557.38951pt x 365.3576pt.
+</Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png, id=369, 548.0475pt x 534.99875pt>
 File: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png Graphic file (type png)
 <use /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png>
 Package pdftex.def Info: /Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png  used on input line 51.
-(pdftex.def)             Requested size: 317.36526pt x 309.80968pt.
-) [15 </Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg> </Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png>]
+(pdftex.def)             Requested size: 557.38951pt x 544.15678pt.
+ [11 </Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB2.jpg>]) [12 </Users/leonardvincentramil/Desktop/MyDoc/MyLatex/ProgettoINTRUSIACSAI/02_StoryBoarding/img/SB3.png>]
 \openout2 = `03_ProtoTyping/03_ProtoTyping.aux'.
 
  (./03_ProtoTyping/03_ProtoTyping.tex
 Chapter 3.
-[16
+[13
 
 
 
 
-] [17]) [18]
+] [14]) [15]
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
@@ -1355,21 +1361,21 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 (./main.aux (./00_Introduzione/00_intro.aux) (./01_NeedFinding/01_NeedFinding.aux) (./02_StoryBoarding/02_StoryBord.aux) (./03_ProtoTyping/03_ProtoTyping.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C5DD86B1C110C44F0E3F9F004DF8A2A8;4374.
+(rerunfilecheck)             Checksum: E0286ADC6CB92DFBFC59387FB5C81F2F;4831.
  ) 
 Here is how much of TeX's memory you used:
- 47213 strings out of 476025
- 1038958 string characters out of 5790017
- 1872388 words of memory out of 5000000
- 66609 multiletter control sequences out of 15000+600000
+ 47169 strings out of 476025
+ 1038638 string characters out of 5790017
+ 1868388 words of memory out of 5000000
+ 66612 multiletter control sequences out of 15000+600000
  523529 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,94p,1526b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,94p,1526b,688s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (19 pages, 1963096 bytes).
+Output written on main.pdf (18 pages, 1964197 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 491 compressed objects within 5 object streams
- 222 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

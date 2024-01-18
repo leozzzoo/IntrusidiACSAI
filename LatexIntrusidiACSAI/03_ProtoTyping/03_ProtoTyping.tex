@@ -76,6 +76,9 @@ ma evidentemente non è abbastanza. Infatti consultando le \textit{Human Interfa
 Alcuni utenti hanno notato un’incongruenza nel task 3, in cui all’utente viene chiesto di informarsi sui tirocini disponibili di un particolare professore, ma nella schermata in cui appare la relativa
 lista di argomenti non c’è nessuna indicazione che indichi la disponibilità degli stessi.
 
+\subsection{Seconda Revisione}
+Nella seconda revisione, sono stati evidenziati alcuni problemi specificatamente nel processo di testing dei paper prototype. In particolare, è stato evidenziato come gli scenari di ogni task non fossero precisi come sarebbero dovuti essere, in quanto non indirizzerebbero abbastanza l’utente nello svolgimento del task. Questo ci ha portato ad essere molto più specifici nella descrizione degli stessi dei digital prototype successivamente creati, arricchendoli maggiormente in dettagli al fine di far immergere l’utente il più possibile nel contesto d’uso dell’applicazione. Inoltre, ci è stato fatto presente come la presenza del bottone del commento potesse rappresentare un problema, in quanto fonte di distrazione per gli utenti. Ad ogni modo, abbiamo provato perlomeno inizialmente a lasciarlo ed effettuare i primi test con quest’ultimo. La sua presenza durante i test non ha provocato alcuna distrazione negli utenti: questo molto probabilmente è dovuto al fatto che non ne fosse fatta menzione alcuna nella descrizione degli scenar.
+
 \subsection{Prototipo digitale 2}
 Sono state apportate delle migliorie tecniche guidate principalmente da una maggiore familiarità ottenuta con Figma.
 Precedentemente, quando appariva la lista di lezioni nel primo task, l’utente poteva cliccare su qualsiasi lezione e comunque veniva aperta la schermata della lezione 1. Inoltre l’utente non poteva
@@ -107,3 +110,10 @@ La novità principale è il nuovo percorso introdotto in risposta ai feedback ot
 \subsubsection{Valutazioni finali (esperto e utenti)}
 La valutazione con l’esperto non ha rivelato criticità, permettendoci di procedere direttamente con le valutazioni con gli utenti, che sono riusciti a completare tutti i task senza difficoltà.
 La tastiera ha dimostrato di simulare più realisticamente un’applicazione reale, riducendo la confusione dell’utente rispetto ai prototipi precedenti dove il testo appariva senza digitazione alcuna.
+
+\section{Analisi di Fattibilità}
+In un'eventuale applicazione basata sul nostro prototipo, centrale sarebbe l'archiviazione e il mantenimento di dati
+come informazioni su insegnamenti, professori, appunti e valutazioni degli studenti.
+Ed è proprio su questo punto che possiamo individuare le principali difficoltà che si potrebbero incontrare.
+Alcune informazioni, come per esempio la disponibilità dei tirocini, dovrebbero essere mantenute costantemente aggiornate e per di più dal professore stesso. 
+Anche la scelta della tipologia di database non è banale infatti avremmo la necessità di gestire, sia informazioni strutturate come dettagli su insegnamenti e professori, per cui un database relazionale come MySQL potrebbe essere abbastanza; sia una varietà di dati non altamente strutturati come valutazioni e commenti degli studenti, per cui magari è più appropriato un database NoSQL come MongoDB.
