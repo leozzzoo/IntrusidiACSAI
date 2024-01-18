@@ -6,7 +6,8 @@
 Nella progettazione del primo prototipo cartaceo, abbiamo prestato particolare attenzione al fatto che tutti e tre i task selezionati
 siano "task di ricerca", ognuno con diverse macro-aree oggetto delle ricerche. Pertanto, abbiamo cercato di strutturare l'applicazione
 in tre sezioni accessibili dalla schermata iniziale tramite tre tasti denominati "Corsi di Laurea", "Insegnamenti" e "Professori", ciascuno
-dei quali reindirizza alla relativa schermata contenente esclusivamente la barra di ricerca.
+dei quali reindirizza alla relativa schermata contenente esclusivamente la barra di ricerca. 
+Abbiamo cercato di utilizzare delle \textit{text labels} significative e di lasciare abbastanza spazio tra i vari bottoni come previsto dalle \textit{Human Interface Guidelines} di IOS.
 Il nostro principale obiettivo nella progettazione è quello di condensare informazioni tematiche in un'unica schermata. Dopo le schermate
 di ricerca si accede, infatti, alla schermata specifica del soggetto ricercato: un professore, un insegnamento (con relativo professore e
 anno accademico), o un corso di laurea specifico, seguendo la suddivisione precedentemente presentata. Ad esempio, per un dato insegnamento,
@@ -17,6 +18,7 @@ di avere le informazioni chiave, riguardo il soggetto ricercato, tutte a portata
 \subsubsection{Valutazione con l'esperto}
 Durante la valutazione condotta dal membro del nostro gruppo scelto per essere l'esperto è emersa una violazione critica di un'\textit{euristica di
 usabilità}: la mancanza di un metodo chiaramente contrassegnato per tornare indietro alla schermata precedente.
+
 Inoltre, attraverso un \textit{cognitive walkthrough}, l'esperto ha suggerito l'inserimento delle "ricerche recenti" nelle schermate di ricerca per ottimizzare le operazioni.
 Nonostante questo abbiamo deciso di procedere con la valutazione con gli utenti senza modifiche al prototipo.
 
@@ -26,6 +28,7 @@ Per la valutazione sul campo con gli utenti abbiamo optato per la tecnica di oss
 e il task corrspondente al prototipo, l'utente è stato invitato a ragionare ad alta voce nello svolgere il task. È stato evidenziato come la mancanza
 di un'indicazione chiara sulla posizione dell'utente nel flusso dell'applicazione possa generare confusione. È stata, poi, ulteriormente confermata la necessità di
 un tasto per tornare indietro.
+
 Inoltre, abbiamo notato un'esitazione da parte di alcuni utenti nel selezionare i tasti nelle schermate specifiche, per esempio quella dell'insegnamento descritta
 prima. Questa incertezza potrebbe essere dovuta al cambiamento completo della schermata dopo la selezione di un tasto, portando gli utenti a riflettere di più prima della scelta.
 Abbiamo anche voluto attribuire buona parte di queste esitazioni, agli scenari dei task, che, in effetti, risultano vaghi e non rappresentativi di una situazione reale.
@@ -33,7 +36,8 @@ Abbiamo anche voluto attribuire buona parte di queste esitazioni, agli scenari d
 
 \subsection{Prototipo cartaceo 2}
 Per affrontare le criticità riscontrate nel prototipo precedente abbiamo introdotto un tasto per tornare indietro, insieme a degli indicatori testuali per chiarire
-la posizione dell'utente all'interno dell'applicazione.
+la posizione dell'utente all'interno dell'applicazione. Queste due aggiunte formano la \textit{Navigation Bar} ideale per un'interfaccia IOS.
+
 Per ridurre l'incertezza degli utenti riscontrata precedentemente, abbiamo introdotto, dove il cambio di schermata risultava superfluo, tasti a tendina. Questi,
 infatti, risultano meno invasivi, facilitando la selezione delle opzioni senza implicare un cambiamento immediato della schermata. Ad esempio, selezionando su
 "Appunti Lezioni" non viene più aperta una nuova schermata ma appare una tendina, sotto il tasto selezionato, con una lista di argomenti tra cui gli utenti possono
@@ -62,11 +66,13 @@ primo prototipo digitale abbiamo seguito la struttura dell’ultimo cartaceo, in
 \subsubsection{Valutazione con l'esperto}
 In questo prototipo, quando l’utente clicca su “Opinioni Studenti” nella pagina del professore, appare una nuova schermata in cui sono elencate tutte le recensioni con una valutazione in stelle.
 Tramite un \textit{cognitive walkthrough} dell’esperto, però, è emerso che molto probabilmente l’utente si aspetta di vedere in primo piano soprattutto una valutazione generale riguardo il professore.
+
 L’esperto, in una delle schermate durante lo svolgimento del task 1, ha anche manifestato scetticismo riguardo all’identificazione numerica delle lezioni in quanto non abbastanza indicativa.
 
 \subsubsection{Valutazione con gli utenti}
 Gli utenti hanno riscontrato difficoltà nel trovare la lezione specificata nello scenario del task 1 “Cosa sono i dati”, infatti nella lista che appare, gli appunti sono identificati da un numero
-ma evidentemente non è abbastanza.
+ma evidentemente non è abbastanza. Infatti consultando le \textit{Human Interface Guidelines} di IOS abbiamo notato che è considerata una buona pratica utilizzare titoli succinti ma descrittivi nelle voci di una lista o in elementi di una tabella.
+
 Alcuni utenti hanno notato un’incongruenza nel task 3, in cui all’utente viene chiesto di informarsi sui tirocini disponibili di un particolare professore, ma nella schermata in cui appare la relativa
 lista di argomenti non c’è nessuna indicazione che indichi la disponibilità degli stessi.
 
@@ -74,6 +80,7 @@ lista di argomenti non c’è nessuna indicazione che indichi la disponibilità 
 Sono state apportate delle migliorie tecniche guidate principalmente da una maggiore familiarità ottenuta con Figma.
 Precedentemente, quando appariva la lista di lezioni nel primo task, l’utente poteva cliccare su qualsiasi lezione e comunque veniva aperta la schermata della lezione 1. Inoltre l’utente non poteva
 scorrere in questa lista. Abbiamo risolto queste limitazioni ottimizzando il menù a tendina su Figma.
+
 In risposta ai precedenti feedback, inoltre, abbiamo apportato le seguenti modifiche:
 Abbiamo reso le lezioni che appaiono nella lista più facilmente riconoscibili, indicandole oltre che per numero anche per nome/argomento.
 Abbiamo introdotto nella schermata “Opinioni Studenti” relative ad un professore una valutazione generale per il professore oltre alle singole recensioni e valutazioni degli studenti.
